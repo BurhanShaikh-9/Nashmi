@@ -1320,11 +1320,19 @@ tr td.sorting_1{
   height: 50px;
   margin-bottom: 10px;
 }
-.metaData{
+.metaDatasDiv{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.metaDatasDiv .metaData{
   background-color: rgb(201, 201, 201);
   color: white;
   padding: 5px 10px;
   border-radius: 6px;
+  margin-bottom: 0;
 }
 
 .listButton{

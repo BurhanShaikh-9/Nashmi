@@ -52,7 +52,7 @@
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                    <li class="breadcrumb-item active">Offers</li>
+                    <li class="breadcrumb-item active">Past Orders</li>
                 </ol>
             </nav>
         </div><!-- End Page Title -->
@@ -64,66 +64,54 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="cardTitleHeading">
-                                <h5 class="card-title">Offers List</h5>
-                                <a href="createOffer.php">Create Offers</a>
+                                <h5 class="card-title">Past Orders List</h5>
+                               
                             </div>
                             <!-- List group with Advanced Contents -->
                             <div class="list-group">
-                                <a  class="list-group-item list-group-item-action">
+                                <a class="list-group-item list-group-item-action">
                                     <div class="rewardList">
-                                        <div>
-                                            <img class="rewardListClass" src="../assets/img/discount.png" alt="">
-                                        </div>
+
                                         <div class=" w-100">
-                                            <h5 class="mb-1">Offer Name</h5>
-                                            <p class="mb-1">Some placeholder content in a paragraph.</p>
+                                            <h5 class="mb-1">Restaurant Name</h5>
+                                            <p class="mb-1">Order Details comes here</p>
+                                            <p class="mb-1">Booking summary Comes here</p>
                                         </div>
                                     </div>
-                                    <small class="metaData"> Price: 100 dinar</small>
-                                    <small class="metaData"> Date: 12/02/2023</small>
-                                    <small class="metaData"> Time: 12:00</small>
-                                    <div class="listButton">
-                                        <button class="listEditButton"><i class="bi bi-pencil"></i></button>
-                                        <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
-                                    </div>
+                                    <small class="metaData"> Order ID: 1233</small>
+                                    <small class="metaData"> Location: Karachi</small>
+                                    <small class="metaData"> Payment Details: 100 dinar</small>
+
 
                                 </a>
-                                <a  class="list-group-item list-group-item-action">
+                                <a class="list-group-item list-group-item-action">
                                     <div class="rewardList">
-                                        <div>
-                                            <img class="rewardListClass" src="../assets/img/discount.png" alt="">
-                                        </div>
+
                                         <div class=" w-100">
-                                            <h5 class="mb-1">Offer Name</h5>
-                                            <p class="mb-1">Some placeholder content in a paragraph.</p>
+                                            <h5 class="mb-1">Restaurant Name</h5>
+                                            <p class="mb-1">Order Details comes here</p>
+                                            <p class="mb-1">Booking summary Comes here</p>
                                         </div>
                                     </div>
-                                    <small class="metaData"> Price: 100 dinar</small>
-                                    <small class="metaData"> Date: 12/02/2023</small>
-                                    <small class="metaData"> Time: 12:00</small>
-                                    <div class="listButton">
-                                        <button class="listEditButton"><i class="bi bi-pencil"></i></button>
-                                        <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
-                                    </div>
+                                    <small class="metaData"> Order ID: 1233</small>
+                                    <small class="metaData"> Location: Karachi</small>
+                                    <small class="metaData"> Payment Details: 100 dinar</small>
+
 
                                 </a>
-                                <a  class="list-group-item list-group-item-action">
+                                <a class="list-group-item list-group-item-action">
                                     <div class="rewardList">
-                                        <div>
-                                            <img class="rewardListClass" src="../assets/img/discount.png" alt="">
-                                        </div>
+
                                         <div class=" w-100">
-                                            <h5 class="mb-1">Offer Name</h5>
-                                            <p class="mb-1">Some placeholder content in a paragraph.</p>
+                                            <h5 class="mb-1">Restaurant Name</h5>
+                                            <p class="mb-1">Order Details comes here</p>
+                                            <p class="mb-1">Booking summary Comes here</p>
                                         </div>
                                     </div>
-                                    <small class="metaData"> Price: 100 dinar</small>
-                                    <small class="metaData"> Date: 12/02/2023</small>
-                                    <small class="metaData"> Time: 12:00</small>
-                                    <div class="listButton">
-                                        <button class="listEditButton"><i class="bi bi-pencil"></i></button>
-                                        <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
-                                    </div>
+                                    <small class="metaData"> Order ID: 1233</small>
+                                    <small class="metaData"> Location: Karachi</small>
+                                    <small class="metaData"> Payment Details: 100 dinar</small>
+
 
                                 </a>
                             </div><!-- End List group Advanced Content -->
@@ -160,12 +148,7 @@
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"
         integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $('#example').DataTable();
 
-        });
-    </script>
     <!-- Template Main JS File -->
     <script src="../assets/js/main.js"></script>
 

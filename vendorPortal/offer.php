@@ -69,7 +69,36 @@
                             </div>
                             <!-- List group with Advanced Contents -->
                             <div class="list-group">
-                                <a  class="list-group-item list-group-item-action">
+                                <a class="list-group-item list-group-item-action">
+                                    <div class="rewardList">
+                                        <div>
+                                            <img class="rewardListClass" src="../assets/img/discount.png" alt="">
+                                        </div>
+                                        <div class=" w-100">
+                                            <h5 class="mb-1">Offer Name</h5>
+                                            <p class="mb-1">Some placeholder content in a paragraph.</p>
+                                        </div>
+                                    </div>
+                                    <div class="metaDatasDiv">
+                                        <div>
+                                            <p class="metaData"> Price: 100 dinar</p>
+                                        </div>
+                                        <div>
+                                            <p class="metaData"> Date: 12/02/2023</p>
+                                        </div>
+                                        <div>
+                                            <p class="metaData"> Time: 12:00</p>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="listButton">
+                                        <button class="listEditButton"><i class="bi bi-pencil"></i></button>
+                                        <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
+                                    </div>
+
+                                </a>
+                                <a class="list-group-item list-group-item-action">
                                     <div class="rewardList">
                                         <div>
                                             <img class="rewardListClass" src="../assets/img/discount.png" alt="">
@@ -88,26 +117,7 @@
                                     </div>
 
                                 </a>
-                                <a  class="list-group-item list-group-item-action">
-                                    <div class="rewardList">
-                                        <div>
-                                            <img class="rewardListClass" src="../assets/img/discount.png" alt="">
-                                        </div>
-                                        <div class=" w-100">
-                                            <h5 class="mb-1">Offer Name</h5>
-                                            <p class="mb-1">Some placeholder content in a paragraph.</p>
-                                        </div>
-                                    </div>
-                                    <small class="metaData"> Price: 100 dinar</small>
-                                    <small class="metaData"> Date: 12/02/2023</small>
-                                    <small class="metaData"> Time: 12:00</small>
-                                    <div class="listButton">
-                                        <button class="listEditButton"><i class="bi bi-pencil"></i></button>
-                                        <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
-                                    </div>
-
-                                </a>
-                                <a  class="list-group-item list-group-item-action">
+                                <a class="list-group-item list-group-item-action">
                                     <div class="rewardList">
                                         <div>
                                             <img class="rewardListClass" src="../assets/img/discount.png" alt="">
