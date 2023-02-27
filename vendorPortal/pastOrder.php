@@ -65,7 +65,7 @@
                         <div class="card-body">
                             <div class="cardTitleHeading">
                                 <h5 class="card-title">Past Orders List</h5>
-                               
+
                             </div>
                             <!-- List group with Advanced Contents -->
                             <div class="list-group">
@@ -78,9 +78,18 @@
                                             <p class="mb-1">Booking summary Comes here</p>
                                         </div>
                                     </div>
-                                    <small class="metaData"> Order ID: 1233</small>
-                                    <small class="metaData"> Location: Karachi</small>
-                                    <small class="metaData"> Payment Details: 100 dinar</small>
+                                    <div class="metaDatasDiv">
+                                        <div>
+                                            <p class="metaData"> Order ID: 1233</p>
+                                        </div>
+                                        <div>
+                                            <p class="metaData"> Location: Karachi</p>
+                                        </div>
+                                        <div>
+                                            <p class="metaData"> Payment Details: 100 dinar</p>
+                                        </div>
+                                    </div>
+
 
 
                                 </a>
@@ -93,9 +102,18 @@
                                             <p class="mb-1">Booking summary Comes here</p>
                                         </div>
                                     </div>
-                                    <small class="metaData"> Order ID: 1233</small>
-                                    <small class="metaData"> Location: Karachi</small>
-                                    <small class="metaData"> Payment Details: 100 dinar</small>
+                                    <div class="metaDatasDiv">
+                                        <div>
+                                            <p class="metaData"> Order ID: 1233</p>
+                                        </div>
+                                        <div>
+                                            <p class="metaData"> Location: Karachi</p>
+                                        </div>
+                                        <div>
+                                            <p class="metaData"> Payment Details: 100 dinar</p>
+                                        </div>
+                                    </div>
+
 
 
                                 </a>
@@ -108,9 +126,18 @@
                                             <p class="mb-1">Booking summary Comes here</p>
                                         </div>
                                     </div>
-                                    <small class="metaData"> Order ID: 1233</small>
-                                    <small class="metaData"> Location: Karachi</small>
-                                    <small class="metaData"> Payment Details: 100 dinar</small>
+                                    <div class="metaDatasDiv">
+                                        <div>
+                                            <p class="metaData"> Order ID: 1233</p>
+                                        </div>
+                                        <div>
+                                            <p class="metaData"> Location: Karachi</p>
+                                        </div>
+                                        <div>
+                                            <p class="metaData"> Payment Details: 100 dinar</p>
+                                        </div>
+                                    </div>
+
 
 
                                 </a>

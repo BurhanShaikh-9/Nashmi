@@ -1,4 +1,3 @@
-
 :root {
   scroll-behavior: smooth;
 }
@@ -1251,20 +1250,22 @@ h6 {
 }
 
 
-.table-responsive .display tbody tr{
+.table-responsive .display tbody tr {
   background-color: white !important;
 }
+
 table.dataTable thead .sorting_1 {
   color: red;
 }
 
-.dataTables_wrapper .dataTables_paginate .paginate_button:hover{
-    color: white !important;
-    border: 1px solid white;
-    background-color: #026851 !important;
-    background: #026851 !important;
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  color: white !important;
+  border: 1px solid white;
+  background-color: #026851 !important;
+  background: #026851 !important;
 }
-.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
   color: white !important;
   border: 1px solid white;
   background-color: #026851 !important;
@@ -1281,13 +1282,15 @@ tr.even td {
   background-color: white !important;
   background: white !important;
 }
-tr td.sorting_1{
+
+tr td.sorting_1 {
   background-color: white !important;
   background: white !important;
   box-shadow: inset 0 0 0 0px rgba(0, 0, 0, 0) !important;
-} 
+}
 
-.paginate_button.previous, .paginate_button.next {
+.paginate_button.previous,
+.paginate_button.next {
   background-color: #007bff;
   color: white;
   font-size: 14px;
@@ -1295,13 +1298,14 @@ tr td.sorting_1{
   padding: 5px 10px;
 }
 
-.cardTitleHeading{
+.cardTitleHeading {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
 }
-.cardTitleHeading a{
+
+.cardTitleHeading a {
   background-color: #026851;
   border: none;
   padding: 5px 20px;
@@ -1311,23 +1315,26 @@ tr td.sorting_1{
 
 
 
-.rewardList{
+.rewardList {
   display: flex;
   gap: 20px;
 }
-.rewardListClass{
+
+.rewardListClass {
   width: 50px;
   height: 50px;
   margin-bottom: 10px;
 }
-.metaDatasDiv{
+
+.metaDatasDiv {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
   gap: 10px;
 }
-.metaDatasDiv .metaData{
+
+.metaDatasDiv .metaData {
   background-color: rgb(201, 201, 201);
   color: white;
   padding: 5px 10px;
@@ -1335,7 +1342,33 @@ tr td.sorting_1{
   margin-bottom: 0;
 }
 
-.listButton{
+.metaButtons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.metaButtons .acceptButton {
+  color: #026851;
+  background-color: #02685023;
+  border-radius: 5px;
+  border: 1px solid #02685091;
+}
+
+.metaButtons button {
+  padding: 4px 15px;
+}
+
+.metaButtons .rejectButton {
+  color: rgb(202, 0, 0);
+  background-color: rgba(202, 0, 0, 0.116);
+  border-radius: 5px;
+  border: 1px solid rgba(202, 0, 0, 0.5);
+}
+
+
+.listButton {
   display: flex;
   position: absolute;
   gap: 10px;
@@ -1343,30 +1376,36 @@ tr td.sorting_1{
   right: 5px;
 
 }
-.listButton button{
+
+.listButton button {
   /* background-color: rgba(255, 255, 255, 0); */
   border: none;
 }
-.list-group-item{
+
+.list-group-item {
   position: relative;
 }
-.listButton .listEditButton{
+
+.listButton .listEditButton {
   color: #026851;
   background-color: #02685023;
   border-radius: 5px;
 }
-.listButton .listDeleteButton{
+
+.listButton .listDeleteButton {
   color: rgb(202, 0, 0);
-  background-color:rgba(202, 0, 0, 0.116);
+  background-color: rgba(202, 0, 0, 0.116);
   border-radius: 5px;
 }
-.cardTitleHeading .addFormBack{
+
+.cardTitleHeading .addFormBack {
   background-color: white;
   border: none;
   padding: 5px 20px;
   color: #026851;
   border-radius: 5px;
 }
+
 .addUserFormButton button {
   color: white;
   padding: 5px 30px;
@@ -1374,6 +1413,7 @@ tr td.sorting_1{
   background-color: #026851;
   border: none;
 }
+
 .addProfileUserInner {
   display: flex;
   justify-content: center;
@@ -1384,10 +1424,12 @@ tr td.sorting_1{
   width: 150px;
   height: 150px;
 }
+
 .addProfileUserInner .imgDiv img {
   border-radius: 15px;
   width: 100%;
 }
+
 .addProfileUserInner .imgDiv button {
   color: white;
   background-color: #026851;
@@ -1398,4 +1440,130 @@ tr td.sorting_1{
   border: 5px solid white;
   bottom: -15px;
   right: -20px;
+}
+
+.listEditButton {
+  color: #026851;
+  background-color: #02685023;
+  border: none;
+  border-radius: 5px;
+}
+
+.listDeleteButton {
+  color: rgb(202, 0, 0);
+  background-color: rgba(202, 0, 0, 0.116);
+  border-radius: 5px;
+  border: none;
+}
+
+.rememberForget {
+
+  font-size: 13px;
+  width: 50%;
+}
+
+.rememberForget1 a {
+  text-align: left;
+  color: #026851;
+}
+
+.rememberForget1 {
+  font-size: 13px;
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: left;
+}
+
+.formRemember {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.formLoginButton {
+
+  --bs-btn-bg: #026851;
+  --bs-btn-border-color: #026851;
+
+  --bs-btn-hover-bg: #026851;
+  --bs-btn-hover-border-color: #026851;
+
+
+  --bs-btn-active-bg: #026851;
+  --bs-btn-active-border-color: #026851;
+
+  --bs-btn-disabled-bg: #026851;
+  --bs-btn-disabled-border-color: #026851;
+}
+.aTag{
+  color: #026851;
+}
+.loginFormHeading{
+  color: #454F63;
+}
+
+.warpper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin: 0px 2px;
+  background: #026851;
+  display: inline-block;
+  color: #fff;
+  border-radius: 3px 3px 0px 0px;
+  box-shadow: 0 0.5rem 0.8rem #0000000c;
+}
+
+.panels {
+  background: #fffffff6;
+  box-shadow: 0 2rem 2rem #0000000c;
+  min-height: 200px;
+  width: 100%;
+  /* max-width:500px; */
+  border-radius: 3px;
+  overflow: hidden;
+  padding: 20px;
+}
+
+.panel {
+  display: none;
+  animation: fadein .8s;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.panel-title {
+  font-size: 1.5em;
+  font-weight: bold
+}
+
+.radio {
+  display: none;
+}
+
+#one:checked~.panels #one-panel,
+#two:checked~.panels #two-panel,
+#three:checked~.panels #three-panel {
+  display: block
+}
+
+#one:checked~.tabs #one-tab,
+#two:checked~.tabs #two-tab {
+  background: #fffffff6;
+  color: #026851;
+  border-top: 3px solid #026851;
 }

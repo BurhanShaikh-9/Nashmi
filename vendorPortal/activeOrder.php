@@ -65,56 +65,193 @@
                         <div class="card-body">
                             <div class="cardTitleHeading">
                                 <h5 class="card-title">Past Orders List</h5>
-                               
+
                             </div>
-                            <!-- List group with Advanced Contents -->
-                            <div class="list-group">
-                                <a class="list-group-item list-group-item-action">
-                                    <div class="rewardList">
 
-                                        <div class=" w-100">
-                                            <h5 class="mb-1">Restaurant Name</h5>
-                                            <p class="mb-1">Order Details comes here</p>
-                                            <p class="mb-1">Booking summary Comes here</p>
+                            <div class="warpper">
+                                <input class="radio" id="one" name="group" type="radio" checked>
+                                <input class="radio" id="two" name="group" type="radio">
+                                <input class="radio" id="three" name="group" type="radio">
+                                <div class="tabs">
+                                    <label class="tab" id="one-tab" for="one">Pending</label>
+                                    <label class="tab" id="two-tab" for="two">Scheduled</label>
+
+                                </div>
+                                <div class="panels">
+                                    <div class="panel" id="one-panel">
+                                        <div class="list-group">
+                                            <a class="list-group-item list-group-item-action">
+                                                <div class="rewardList">
+
+                                                    <div class=" w-100">
+                                                        <h5 class="mb-1">Restaurant Name</h5>
+                                                        <p class="mb-1">Order Details comes here</p>
+                                                        <p class="mb-1">Booking summary Comes here</p>
+                                                    </div>
+                                                </div>
+                                                <div class="metaDatasDiv">
+                                                    <div>
+                                                        <p class="metaData"> Order ID: 1233</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Location: Karachi</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Payment Details: 100 dinar</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Order Type: Delivery</p>
+                                                    </div>
+                                                </div>
+                                                <div class="metaButtons">
+                                                    <button class="acceptButton">Accept</button>
+                                                    <button class="rejectButton">Reject</button>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item list-group-item-action">
+                                                <div class="rewardList">
+
+                                                    <div class=" w-100">
+                                                        <h5 class="mb-1">Restaurant Name</h5>
+                                                        <p class="mb-1">Order Details comes here</p>
+                                                        <p class="mb-1">Booking summary Comes here</p>
+                                                    </div>
+                                                </div>
+                                                <div class="metaDatasDiv">
+                                                    <div>
+                                                        <p class="metaData"> Order ID: 1233</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Location: Karachi</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Payment Details: 100 dinar</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Order Type: Delivery</p>
+                                                    </div>
+                                                </div>
+                                                <div class="metaButtons">
+                                                    <button class="acceptButton">Accept</button>
+                                                    <button class="rejectButton">Reject</button>
+                                                </div>
+                                            </a>
+                                            <a class="list-group-item list-group-item-action">
+                                                <div class="rewardList">
+
+                                                    <div class=" w-100">
+                                                        <h5 class="mb-1">Restaurant Name</h5>
+                                                        <p class="mb-1">Order Details comes here</p>
+                                                        <p class="mb-1">Booking summary Comes here</p>
+                                                    </div>
+                                                </div>
+                                                <div class="metaDatasDiv">
+                                                    <div>
+                                                        <p class="metaData"> Order ID: 1233</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Location: Karachi</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Payment Details: 100 dinar</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Order Type: Delivery</p>
+                                                    </div>
+                                                </div>
+                                                <div class="metaButtons">
+                                                    <button class="acceptButton">Accept</button>
+                                                    <button class="rejectButton">Reject</button>
+                                                </div>
+                                            </a>
+
                                         </div>
                                     </div>
-                                    <small class="metaData"> Order ID: 1233</small>
-                                    <small class="metaData"> Location: Karachi</small>
-                                    <small class="metaData"> Payment Details: 100 dinar</small>
+                                    <div class="panel" id="two-panel">
+                                    
+                                        <div class="list-group">
+                                            <a class="list-group-item list-group-item-action">
+                                                <div class="rewardList">
 
+                                                    <div class=" w-100">
+                                                        <h5 class="mb-1">Restaurant Name</h5>
+                                                        <p class="mb-1">Order Details comes here</p>
+                                                        <p class="mb-1">Booking summary Comes here</p>
+                                                    </div>
+                                                </div>
+                                                <div class="metaDatasDiv">
+                                                    <div>
+                                                        <p class="metaData"> Order ID: 1233</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Location: Karachi</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Payment Details: 100 dinar</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> ETA : </p>
+                                                    </div>
+                                                </div>
 
-                                </a>
-                                <a class="list-group-item list-group-item-action">
-                                    <div class="rewardList">
+                                            </a>
+                                            <a class="list-group-item list-group-item-action">
+                                                <div class="rewardList">
 
-                                        <div class=" w-100">
-                                            <h5 class="mb-1">Restaurant Name</h5>
-                                            <p class="mb-1">Order Details comes here</p>
-                                            <p class="mb-1">Booking summary Comes here</p>
+                                                    <div class=" w-100">
+                                                        <h5 class="mb-1">Restaurant Name</h5>
+                                                        <p class="mb-1">Order Details comes here</p>
+                                                        <p class="mb-1">Booking summary Comes here</p>
+                                                    </div>
+                                                </div>
+                                                <div class="metaDatasDiv">
+                                                    <div>
+                                                        <p class="metaData"> Order ID: 1233</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Location: Karachi</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Payment Details: 100 dinar</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> ETA : </p>
+                                                    </div>
+                                                </div>
+
+                                            </a>
+                                            <a class="list-group-item list-group-item-action">
+                                                <div class="rewardList">
+
+                                                    <div class=" w-100">
+                                                        <h5 class="mb-1">Restaurant Name</h5>
+                                                        <p class="mb-1">Order Details comes here</p>
+                                                        <p class="mb-1">Booking summary Comes here</p>
+                                                    </div>
+                                                </div>
+                                                <div class="metaDatasDiv">
+                                                    <div>
+                                                        <p class="metaData"> Order ID: 1233</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Location: Karachi</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> Payment Details: 100 dinar</p>
+                                                    </div>
+                                                    <div>
+                                                        <p class="metaData"> ETA : </p>
+                                                    </div>
+                                                </div>
+
+                                            </a>
+
                                         </div>
                                     </div>
-                                    <small class="metaData"> Order ID: 1233</small>
-                                    <small class="metaData"> Location: Karachi</small>
-                                    <small class="metaData"> Payment Details: 100 dinar</small>
 
+                                </div>
+                            </div>
 
-                                </a>
-                                <a class="list-group-item list-group-item-action">
-                                    <div class="rewardList">
-
-                                        <div class=" w-100">
-                                            <h5 class="mb-1">Restaurant Name</h5>
-                                            <p class="mb-1">Order Details comes here</p>
-                                            <p class="mb-1">Booking summary Comes here</p>
-                                        </div>
-                                    </div>
-                                    <small class="metaData"> Order ID: 1233</small>
-                                    <small class="metaData"> Location: Karachi</small>
-                                    <small class="metaData"> Payment Details: 100 dinar</small>
-
-
-                                </a>
-                            </div><!-- End List group Advanced Content -->
 
 
                         </div>
