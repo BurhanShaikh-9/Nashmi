@@ -48,11 +48,11 @@
     <main id="main" class="main">
 
         <div class="pagetitle">
-            <h1>Set Up Restaurant </h1>
+            <h1> Restaurant </h1>
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                    <li class="breadcrumb-item active">Categories</li>
+                    <li class="breadcrumb-item active">Manage Restaurant</li>
                 </ol>
             </nav>
         </div><!-- End Page Title -->
@@ -64,8 +64,8 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="cardTitleHeading">
-                                <h5 class="card-title">Categories</h5>
-                                <a href="addCategories.php">Add Categories</a>
+                                <h5 class="card-title">Manage Restaurant</h5>
+                      
                             </div>
                             <div class="table-responsive">
 
@@ -74,42 +74,44 @@
                                         <tr>
                                             <th>ID</th>
                                             <th>Name</th>
-                                            <th>Details</th>
+                                            <th>Invoice</th>
+                                     
                                             <th>Actions</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr>
+                                            <td>10</td>
                                             <td> Nixon</td>
-                                            <td>10</td>
-                                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa architecto fugiat illo iure dolorem!</td>
+                                            <td>1234</td>
+                                          
                                             <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
                                                 <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
                                             </td>
 
                                         </tr>
                                         <tr>
-                                        <td> Nixon</td>
                                             <td>10</td>
-                                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa architecto fugiat illo iure dolorem!</td>
+                                            <td> Nixon</td>
+                                            <td>1234</td>
                                             <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
                                                 <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
                                             </td>
 
                                         </tr>
                                         <tr>
-                                        <td> Nixon</td>
                                             <td>10</td>
-                                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa architecto fugiat illo iure dolorem!</td>
+                                            <td> Nixon</td>
+                                            <td>1234</td>
                                             <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
                                                 <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
                                             </td>
 
                                         </tr>
                                         <tr>
-                                        <td> Nixon</td>
                                             <td>10</td>
-                                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa architecto fugiat illo iure dolorem!</td>
+                                            <td> Nixon</td>
+                                            <td>1234</td>
                                             <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
                                                 <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
                                             </td>

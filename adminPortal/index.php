@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Dashboard - NiceAdmin Bootstrap Template</title>
+  <title>Home</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -15,7 +15,9 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.gstatic.com" rel="preconnect">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="../assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,11 +36,11 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <?php include 'Includes/header.php';?>
+  <?php include 'Includes/header.php'; ?>
   <!-- End Header -->
 
   <!-- ======= Sidebar ======= -->
-  <?php include 'Includes/sideHeader.php';?>
+  <?php include 'Includes/sideHeader.php'; ?>
   <!-- End Sidebar-->
 
   <main id="main" class="main">
@@ -64,19 +66,20 @@
             <div class="col-xxl-4 col-md-6">
               <div class="card info-card revenue-card">
 
-               
+
 
                 <div class="card-body">
                   <h5 class="card-title">Total Orders </h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                  
+
                       <i class="bi bi-card-checklist"></i>
                     </div>
                     <div class="ps-3">
                       <h6>145</h6>
-                      <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span>
+                      <span class="text-success small pt-1 fw-bold">12%</span> <span
+                        class="text-muted small pt-2 ps-1">increase</span>
 
                     </div>
                   </div>
@@ -90,15 +93,16 @@
               <div class="card info-card revenue-card">
 
                 <div class="card-body">
-                  <h5 class="card-title">Pending Orders</h5>
+                  <h5 class="card-title">Cancelled Orders</h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                    <i class="bi bi-cart"></i>
+                      <i class="bi bi-cart"></i>
                     </div>
                     <div class="ps-3">
                       <h6>22</h6>
-                      <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
+                      <span class="text-success small pt-1 fw-bold">8%</span> <span
+                        class="text-muted small pt-2 ps-1">increase</span>
 
                     </div>
                   </div>
@@ -117,11 +121,12 @@
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                    <i class="bi bi-check2-all"></i>
+                      <i class="bi bi-check2-all"></i>
                     </div>
                     <div class="ps-3">
                       <h6>1244</h6>
-                      <span class="text-danger small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">decrease</span>
+                      <span class="text-danger small pt-1 fw-bold">12%</span> <span
+                        class="text-muted small pt-2 ps-1">decrease</span>
 
                     </div>
                   </div>
@@ -131,72 +136,8 @@
 
             </div><!-- End Customers Card -->
 
-          
             <!-- Recent Orders -->
             <div class="col-12">
-              <div class="card recent-sales overflow-auto">
-
-                <div class="card-body">
-                  <h5 class="card-title">Recent Orders <span>| Today</span></h5>
-                  <div class="table-responsive">
-                  <table class="table table-borderless datatable">
-                    <thead>
-                      <tr>
-                        <th scope="col">ID</th>
-                        <th scope="col">Name</th>
-                        <th scope="col">Order Type</th>
-                        <th scope="col">Price</th>
-                        <th scope="col">Actions</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <th scope="row"><a href="#">#2457</a></th>
-                        <td>Order Name</td>
-                        <td>Delivery</td>
-                        <td>64 dinnar</td>
-                        <td><span class="badge bg-success">Approved</span></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><a href="#">#2457</a></th>
-                        <td>Order Name</td>
-                        <td>Delivery</td>
-                        <td>64 dinnar</td>
-                        <td><span class="badge bg-success">Approved</span></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><a href="#">#2457</a></th>
-                        <td>Order Name</td>
-                        <td>Delivery</td>
-                        <td>64 dinnar</td>
-                        <td><span class="badge bg-danger">Rejected</span></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><a href="#">#2457</a></th>
-                        <td>Order Name</td>
-                        <td>Delivery</td>
-                        <td>64 dinnar</td>
-                        <td><span class="badge bg-danger">Rejected</span></td>
-                      </tr>
-                      <tr>
-                        <th scope="row"><a href="#">#2457</a></th>
-                        <td>Order Name</td>
-                        <td>Delivery</td>
-                        <td>64 dinnar</td>
-                        <td><span class="badge bg-success">Approved</span></td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-                  </div>
-   
-                </div>
-
-              </div>
-            </div><!-- End Recent Sales -->
-
-              <!-- Reports -->
-              <div class="col-12">
               <div class="card">
 
                 <div class="filter">
@@ -225,7 +166,7 @@
                           name: 'Total Orders',
                           data: [31, 40, 28, 51, 42, 82, 56],
                         }, {
-                          name: 'Pending Orders',
+                          name: 'Cancelled Orders',
                           data: [11, 32, 45, 32, 34, 52, 41]
                         }, {
                           name: 'Completed Orders',
@@ -385,42 +326,42 @@
                     radar: {
                       // shape: 'circle',
                       indicator: [{
-                          name: 'Sales',
-                          max: 6500
-                        },
-                        {
-                          name: 'Administration',
-                          max: 16000
-                        },
-                        {
-                          name: 'Information Technology',
-                          max: 30000
-                        },
-                        {
-                          name: 'Customer Support',
-                          max: 38000
-                        },
-                        {
-                          name: 'Development',
-                          max: 52000
-                        },
-                        {
-                          name: 'Marketing',
-                          max: 25000
-                        }
+                        name: 'Sales',
+                        max: 6500
+                      },
+                      {
+                        name: 'Administration',
+                        max: 16000
+                      },
+                      {
+                        name: 'Information Technology',
+                        max: 30000
+                      },
+                      {
+                        name: 'Customer Support',
+                        max: 38000
+                      },
+                      {
+                        name: 'Development',
+                        max: 52000
+                      },
+                      {
+                        name: 'Marketing',
+                        max: 25000
+                      }
                       ]
                     },
                     series: [{
                       name: 'Budget vs spending',
                       type: 'radar',
                       data: [{
-                          value: [4200, 3000, 20000, 35000, 50000, 18000],
-                          name: 'Allocated Budget'
-                        },
-                        {
-                          value: [5000, 14000, 28000, 26000, 42000, 21000],
-                          name: 'Actual Spending'
-                        }
+                        value: [4200, 3000, 20000, 35000, 50000, 18000],
+                        name: 'Allocated Budget'
+                      },
+                      {
+                        value: [5000, 14000, 28000, 26000, 42000, 21000],
+                        name: 'Actual Spending'
+                      }
                       ]
                     }]
                   });
@@ -438,10 +379,11 @@
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <?php include 'Includes/footer.php';?>
+  <?php include 'Includes/footer.php'; ?>
   <!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="../assets/vendor/apexcharts/apexcharts.min.js"></script>
@@ -454,8 +396,9 @@
   <script src="../assets/vendor/php-email-form/validate.js"></script>
 
   <!-- jquery Cdn -->
-  <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-  
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+    integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>
 

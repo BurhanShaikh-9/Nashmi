@@ -48,11 +48,11 @@
     <main id="main" class="main">
 
         <div class="pagetitle">
-            <h1>Set Up Restaurant </h1>
+            <h1>Hot Offers</h1>
             <nav>
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-                    <li class="breadcrumb-item active">Categories</li>
+                    <li class="breadcrumb-item active">Manage Categories</li>
                 </ol>
             </nav>
         </div><!-- End Page Title -->
@@ -64,60 +64,59 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="cardTitleHeading">
-                                <h5 class="card-title">Categories</h5>
-                                <a href="addCategories.php">Add Categories</a>
+                                <h5 class="card-title">Manage Categories</h5>
+                                <a href="addCategories.php">Add Category</a>
                             </div>
-                            <div class="table-responsive">
+                            <!-- List group with Advanced Contents -->
+                            <div class="list-group">
+                                <a class="list-group-item list-group-item-action">
+                                    <div class="rewardList">
+                                        <div>
+                                            <img class="rewardListClass" src="../assets/img/discount.png" alt="">
+                                        </div>
+                                        <div class=" w-100">
+                                            <p class="mb-1">ID: 123</p>
+                                            <h5 class="mb-1">Category Name</h5>
+                                        </div>
+                                    </div>
+                                    <div class="listButton">
+                                        <button class="listEditButton"><i class="bi bi-pencil"></i></button>
+                                        <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
+                                    </div>
+                                </a>
+                                <a class="list-group-item list-group-item-action">
+                                    <div class="rewardList">
+                                        <div>
+                                            <img class="rewardListClass" src="../assets/img/discount.png" alt="">
+                                        </div>
+                                        <div class=" w-100">
+                                            <p class="mb-1">ID: 123</p>
+                                            <h5 class="mb-1">Category Name</h5>
+                                        </div>
+                                    </div>
+                                    <div class="listButton">
+                                        <button class="listEditButton"><i class="bi bi-pencil"></i></button>
+                                        <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
+                                    </div>
+                                </a>
+                                <a class="list-group-item list-group-item-action">
+                                    <div class="rewardList">
+                                        <div>
+                                            <img class="rewardListClass" src="../assets/img/discount.png" alt="">
+                                        </div>
+                                        <div class=" w-100">
+                                            <p class="mb-1">ID: 123</p>
+                                            <h5 class="mb-1">Category Name</h5>
+                                        </div>
+                                    </div>
+                                    <div class="listButton">
+                                        <button class="listEditButton"><i class="bi bi-pencil"></i></button>
+                                        <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
+                                    </div>
+                                </a>
+                            </div><!-- End List group Advanced Content -->
 
-                                <table id="listingTable" class="display" style="width:100%">
-                                    <thead>
-                                        <tr>
-                                            <th>ID</th>
-                                            <th>Name</th>
-                                            <th>Details</th>
-                                            <th>Actions</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td> Nixon</td>
-                                            <td>10</td>
-                                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa architecto fugiat illo iure dolorem!</td>
-                                            <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
-                                                <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
-                                            </td>
 
-                                        </tr>
-                                        <tr>
-                                        <td> Nixon</td>
-                                            <td>10</td>
-                                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa architecto fugiat illo iure dolorem!</td>
-                                            <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
-                                                <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
-                                            </td>
-
-                                        </tr>
-                                        <tr>
-                                        <td> Nixon</td>
-                                            <td>10</td>
-                                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa architecto fugiat illo iure dolorem!</td>
-                                            <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
-                                                <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
-                                            </td>
-
-                                        </tr>
-                                        <tr>
-                                        <td> Nixon</td>
-                                            <td>10</td>
-                                            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa architecto fugiat illo iure dolorem!</td>
-                                            <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
-                                                <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
-                                            </td>
-
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
                         </div>
                     </div>
 
@@ -151,7 +150,7 @@
     <script src="https://cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
     <script>
         $(document).ready(function () {
-            $('#listingTable').DataTable();
+            $('#example').DataTable();
 
         });
     </script>

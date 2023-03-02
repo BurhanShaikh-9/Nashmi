@@ -67,61 +67,63 @@
                                 <h5 class="card-title">Listings</h5>
                                 <a href="addListing.php">Add Listing</a>
                             </div>
+                            <div class="table-responsive">
 
-                            <table id="listingTable" class="display" style="width:100%">
-                                <thead>
-                                    <tr>
-                                        <th>Name</th>
-                                        <th>Price</th>
-                                        <th>Category</th>
-                                        <th>Availability</th>
-                                        <th>Actions</th>
+                                <table id="listingTable" class="display" style="width:100%">
+                                    <thead>
+                                        <tr>
+                                            <th>Name</th>
+                                            <th>Price</th>
+                                            <th>Category</th>
+                                            <th>Availability</th>
+                                            <th>Actions</th>
 
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td> Nixon</td>
-                                        <td>1000 dinar</td>
-                                        <td>fast food</td>
-                                        <td>Delivery</td>
-                                        <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
-                                            <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
-                                        </td>
-                                     
-                                    </tr>
-                                    <tr>
-                                        <td> Nixon</td>
-                                        <td>1000 dinar</td>
-                                        <td>fast food</td>
-                                        <td>Delivery</td>
-                                        <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
-                                            <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
-                                        </td>
-                                     
-                                    </tr>
-                                    <tr>
-                                        <td> Nixon</td>
-                                        <td>1000 dinar</td>
-                                        <td>fast food</td>
-                                        <td>Delivery</td>
-                                        <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
-                                            <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
-                                        </td>
-                                     
-                                    </tr>
-                                    <tr>
-                                        <td> Nixon</td>
-                                        <td>1000 dinar</td>
-                                        <td>fast food</td>
-                                        <td>Delivery</td>
-                                        <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
-                                            <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
-                                        </td>
-                                     
-                                    </tr>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td> Nixon</td>
+                                            <td>1000 dinar</td>
+                                            <td>fast food</td>
+                                            <td>Delivery</td>
+                                            <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
+                                                <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td> Nixon</td>
+                                            <td>1000 dinar</td>
+                                            <td>fast food</td>
+                                            <td>Delivery</td>
+                                            <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
+                                                <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td> Nixon</td>
+                                            <td>1000 dinar</td>
+                                            <td>fast food</td>
+                                            <td>Delivery</td>
+                                            <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
+                                                <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
+                                            </td>
+
+                                        </tr>
+                                        <tr>
+                                            <td> Nixon</td>
+                                            <td>1000 dinar</td>
+                                            <td>fast food</td>
+                                            <td>Delivery</td>
+                                            <td> <button class="listEditButton"><i class="bi bi-pencil"></i></button>
+                                                <button class="listDeleteButton"><i class="bi bi-trash3"></i></button>
+                                            </td>
+
+                                        </tr>
                                     </tbody>
-                            </table>
+                                </table>
+                            </div>
                         </div>
                     </div>
 
